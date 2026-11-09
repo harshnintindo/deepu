@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mem5Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE5D9"/>
+      <stop offset="50%" stop-color="#FFCAD4"/>
+      <stop offset="100%" stop-color="#F8EDEB"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#mem5Bg)"/>
+
+  <!-- Two interconnected friendship braided bracelets or pinky promise -->
+  <g transform="translate(300, 170)">
+    <!-- Big glowing heart behind -->
+    <path d="M 0 -20 C -70 -100 -160 -10 -90 60 C -40 100 0 130 0 130 C 0 130 40 100 90 60 C 160 -10 70 -100 0 -20 Z" fill="#FFF" opacity="0.6"/>
+    
+    <!-- Friendship bracelet threads -->
+    <path d="M -150 -10 Q 0 -60 150 -10" fill="none" stroke="#E07A5F" stroke-width="8" stroke-linecap="round"/>
+    <path d="M -150 10 Q 0 60 150 10" fill="none" stroke="#81B29A" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Gold charms in the middle -->
+    <circle cx="-25" cy="0" r="22" fill="#F4A261" stroke="#E76F51" stroke-width="3"/>
+    <text x="-25" y="6" font-family="'Caveat', cursive, sans-serif" font-size="20" fill="#FFF" text-anchor="middle" font-weight="bold">BEST</text>
+
+    <circle cx="25" cy="0" r="22" fill="#E76F51" stroke="#F4A261" stroke-width="3"/>
+    <text x="25" y="6" font-family="'Caveat', cursive, sans-serif" font-size="18" fill="#FFF" text-anchor="middle" font-weight="bold">FRIENDS</text>
+  </g>
+
+  <!-- Little flower blooms & stars -->
+  <g fill="#F28482">
+    <circle cx="120" cy="90" r="8"/>
+    <circle cx="108" cy="85" r="7"/>
+    <circle cx="132" cy="85" r="7"/>
+    <circle cx="114" cy="98" r="7"/>
+    <circle cx="126" cy="98" r="7"/>
+    <circle cx="120" cy="90" r="4" fill="#F7EDE2"/>
+
+    <circle cx="480" cy="90" r="8"/>
+    <circle cx="468" cy="85" r="7"/>
+    <circle cx="492" cy="85" r="7"/>
+    <circle cx="474" cy="98" r="7"/>
+    <circle cx="486" cy="98" r="7"/>
+    <circle cx="480" cy="90" r="4" fill="#F7EDE2"/>
+  </g>
+
+  <!-- Sparkles -->
+  <path d="M 220 70 Q 225 80 235 85 Q 225 90 220 100 Q 215 90 205 85 Q 215 80 220 70 Z" fill="#F4A261"/>
+  <path d="M 380 70 Q 385 80 395 85 Q 385 90 380 100 Q 375 90 365 85 Q 375 80 380 70 Z" fill="#F4A261"/>
+
+  <text x="300" y="345" font-family="'Caveat', cursive, sans-serif" font-size="26" fill="#6B4D44" text-anchor="middle">"No matter where life takes us, you will always be home to me."</text>
+</svg>

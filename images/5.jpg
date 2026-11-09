@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2B2D42"/>
+      <stop offset="40%" stop-color="#3D405B"/>
+      <stop offset="75%" stop-color="#5B5F7F"/>
+      <stop offset="100%" stop-color="#8D99AE"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF3B0" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FFF3B0" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FFF3B0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Night Sky -->
+  <rect width="500" height="500" fill="url(#nightSky)"/>
+
+  <!-- Crescent Moon and Glow -->
+  <circle cx="360" cy="130" r="60" fill="url(#moonGlow)"/>
+  <path d="M 375 90 A 40 40 0 1 0 375 170 A 30 30 0 1 1 375 90 Z" fill="#FFE49E"/>
+
+  <!-- Twinkling Stars -->
+  <g fill="#FFF">
+    <!-- Star 1 -->
+    <path d="M 120 90 Q 120 100 130 100 Q 120 100 120 110 Q 120 100 110 100 Q 120 100 120 90 Z"/>
+    <!-- Star 2 -->
+    <path d="M 220 70 Q 220 78 228 78 Q 220 78 220 86 Q 220 78 212 78 Q 220 78 220 70 Z"/>
+    <!-- Star 3 -->
+    <path d="M 180 160 Q 180 167 187 167 Q 180 167 180 174 Q 180 167 173 167 Q 180 167 180 160 Z"/>
+    <!-- Star 4 -->
+    <path d="M 280 120 Q 280 126 286 126 Q 280 126 280 132 Q 280 126 274 126 Q 280 126 280 120 Z"/>
+    <!-- Star 5 -->
+    <path d="M 80 180 Q 80 185 85 185 Q 80 185 80 190 Q 80 185 75 185 Q 80 185 80 180 Z"/>
+    <!-- Dots -->
+    <circle cx="150" cy="120" r="1.5" opacity="0.8"/>
+    <circle cx="260" cy="80" r="1.5" opacity="0.8"/>
+    <circle cx="300" cy="160" r="2" opacity="0.8"/>
+    <circle cx="90" cy="130" r="1.5" opacity="0.8"/>
+    <circle cx="220" cy="190" r="2" opacity="0.8"/>
+    <circle cx="430" cy="90" r="2" opacity="0.8"/>
+    <circle cx="440" cy="190" r="1.5" opacity="0.8"/>
+  </g>
+
+  <!-- Shooting Star -->
+  <line x1="160" y1="130" x2="100" y2="150" stroke="#FFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Pine Tree Silhouettes on Hills -->
+  <path d="M 0 380 Q 150 330 300 370 Q 400 340 500 360 L 500 500 L 0 500 Z" fill="#1D1E2C"/>
+  
+  <!-- Camp Tent -->
+  <g transform="translate(190, 360)">
+    <polygon points="60,-50 120,40 0,40" fill="#E07A5F"/>
+    <polygon points="60,-50 0,40 40,40" fill="#CC5A3F"/>
+    <!-- Tent opening glow -->
+    <polygon points="60,-20 85,40 35,40" fill="#F4F1DE" opacity="0.9"/>
+    <!-- Tent sticks -->
+    <line x1="55" y1="-55" x2="65" y2="-45" stroke="#F4F1DE" stroke-width="2"/>
+    <line x1="65" y1="-55" x2="55" y2="-45" stroke="#F4F1DE" stroke-width="2"/>
+  </g>
+
+  <!-- Campfire with gentle embers -->
+  <g transform="translate(350, 400)">
+    <line x1="-15" y1="5" x2="15" y2="-5" stroke="#7F5539" stroke-width="5" stroke-linecap="round"/>
+    <line x1="-12" y1="-5" x2="15" y2="5" stroke="#7F5539" stroke-width="5" stroke-linecap="round"/>
+    <!-- Flames -->
+    <path d="M 0 5 C -10 -5 -5 -25 0 -25 C 5 -25 10 -5 0 5 Z" fill="#E63946"/>
+    <path d="M 0 5 C -6 -2 -3 -15 0 -15 C 3 -15 6 -2 0 5 Z" fill="#FFB703"/>
+    <circle cx="-5" cy="-30" r="1.5" fill="#FFD166"/>
+    <circle cx="4" cy="-35" r="1.2" fill="#FFD166"/>
+  </g>
+
+  <text x="250" y="475" font-family="'Caveat', cursive, sans-serif" font-size="28" fill="#F4F1DE" text-anchor="middle" font-weight="bold">Stargazing &amp; deep talks 🌙✨</text>
+</svg>

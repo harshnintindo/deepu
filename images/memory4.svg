@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mem4Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE2E4"/>
+      <stop offset="100%" stop-color="#FFCAD4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#mem4Bg)"/>
+
+  <!-- Vintage Photobooth Strip (Angled) -->
+  <g transform="translate(230, 200) rotate(-8)">
+    <rect x="-60" y="-140" width="120" height="280" rx="6" fill="#FFFFFF" stroke="#E2E2E2" stroke-width="2" filter="drop-shadow(0 8px 12px rgba(0,0,0,0.08))"/>
+    
+    <!-- Photo 1 (Silly faces) -->
+    <rect x="-48" y="-126" width="96" height="70" rx="3" fill="#E8D5B5"/>
+    <text x="0" y="-85" font-size="28" text-anchor="middle">😜🤪</text>
+    
+    <!-- Photo 2 (Peace signs) -->
+    <rect x="-48" y="-46" width="96" height="70" rx="3" fill="#FFE5D9"/>
+    <text x="0" y="-5" font-size="28" text-anchor="middle">✌️🥰</text>
+    
+    <!-- Photo 3 (Giggling burst) -->
+    <rect x="-48" y="34" width="96" height="70" rx="3" fill="#D8E2DC"/>
+    <text x="0" y="75" font-size="28" text-anchor="middle">🤣😂</text>
+    
+    <text x="0" y="125" font-family="'Caveat', cursive, sans-serif" font-size="14" fill="#999" text-anchor="middle">PHOTO-BOOTH MEMORIES</text>
+  </g>
+
+  <!-- Big pop bubbles & laughter emojis -->
+  <g transform="translate(430, 160)">
+    <!-- Speech bubble with laughter -->
+    <ellipse cx="0" cy="0" rx="90" ry="50" fill="#FFFFFF" stroke="#FFB4A2" stroke-width="3"/>
+    <polygon points="-20,40 -50,75 5,45" fill="#FFFFFF"/>
+    <polygon points="-20,40 -50,75 5,45" fill="none" stroke="#FFB4A2" stroke-width="3"/>
+    <text x="0" y="8" font-family="'Caveat', cursive, sans-serif" font-size="32" fill="#E76F51" text-anchor="middle" font-weight="bold">"MY STOMACH HURTS!" 😂</text>
+  </g>
+
+  <!-- Floating hearts -->
+  <g fill="#FF758F">
+    <path d="M 400 240 C 390 230 370 235 375 250 C 382 265 400 280 400 280 C 400 280 418 265 425 250 C 430 235 410 230 400 240 Z"/>
+    <path d="M 470 70 C 465 65 450 67 453 77 C 458 87 470 96 470 96 C 470 96 482 87 487 77 C 490 67 475 65 470 70 Z" transform="scale(0.8) translate(80, 20)"/>
+  </g>
+
+  <text x="300" y="365" font-family="'Caveat', cursive, sans-serif" font-size="26" fill="#6B4D44" text-anchor="middle">"We couldn't breathe from laughing so hard."</text>
+</svg>

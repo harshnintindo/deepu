@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bdayBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE2E4"/>
+      <stop offset="50%" stop-color="#FFCAD4"/>
+      <stop offset="100%" stop-color="#B5E2FA"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bdayBg)"/>
+
+  <!-- Party Bunting / Garland -->
+  <path d="M 0 50 Q 125 100 250 50 Q 375 100 500 50" fill="none" stroke="#6D597A" stroke-width="2" stroke-dasharray="3 3"/>
+  <!-- Pennants -->
+  <polygon points="50,68 80,68 65,115" fill="#FFB703"/>
+  <polygon points="110,80 140,80 125,127" fill="#FB8500"/>
+  <polygon points="170,75 200,75 185,122" fill="#E63946"/>
+  <polygon points="230,55 260,55 245,102" fill="#8ECAE6"/>
+  <polygon points="290,70 320,70 305,117" fill="#90BE6D"/>
+  <polygon points="350,80 380,80 365,127" fill="#F72585"/>
+  <polygon points="410,65 440,65 425,112" fill="#7209B7"/>
+
+  <!-- Birthday Cake -->
+  <g transform="translate(250, 310)">
+    <!-- Cake Stand -->
+    <ellipse cx="0" cy="90" rx="90" ry="16" fill="#FFFFFF" stroke="#E2E2E2" stroke-width="2"/>
+    <path d="M -20 90 L -10 120 L 10 120 L 20 90 Z" fill="#FFFFFF"/>
+    <ellipse cx="0" cy="120" rx="40" ry="10" fill="#E2E2E2"/>
+
+    <!-- Bottom Cake Layer -->
+    <rect x="-80" y="20" width="160" height="70" rx="12" fill="#FFF1E6"/>
+    <!-- Frosting drips -->
+    <path d="M -80 35 Q -70 50 -60 35 Q -50 55 -40 35 Q -30 50 -20 35 Q -10 55 0 35 Q 10 50 20 35 Q 30 55 40 35 Q 50 50 60 35 Q 70 55 80 35 L 80 20 L -80 20 Z" fill="#FFCAD4"/>
+
+    <!-- Top Cake Layer -->
+    <rect x="-55" y="-35" width="110" height="60" rx="10" fill="#FFF1E6"/>
+    <path d="M -55 -25 Q -45 -10 -35 -25 Q -25 -5 -15 -25 Q -5 -10 5 -25 Q 15 -5 25 -25 Q 35 -10 45 -25 Q 55 -10 55 -25 L 55 -35 L -55 -35 Z" fill="#FFB4A2"/>
+
+    <!-- Cherries & Sprinkles on top -->
+    <circle cx="-35" cy="-35" r="8" fill="#E63946"/>
+    <circle cx="0" cy="-35" r="8" fill="#E63946"/>
+    <circle cx="35" cy="-35" r="8" fill="#E63946"/>
+
+    <!-- Candles -->
+    <g transform="translate(0, -35)">
+      <rect x="-22" y="-35" width="6" height="35" rx="3" fill="#48CAE4"/>
+      <rect x="-3" y="-45" width="6" height="45" rx="3" fill="#FFD166"/>
+      <rect x="16" y="-35" width="6" height="35" rx="3" fill="#FF70A6"/>
+      
+      <!-- Flames -->
+      <path d="M -19 -45 C -25 -55 -19 -60 -19 -60 C -19 -60 -13 -55 -19 -45 Z" fill="#FF9E00"/>
+      <circle cx="-19" cy="-48" r="3" fill="#FFFF3F"/>
+
+      <path d="M 0 -55 C -6 -65 0 -72 0 -72 C 0 -72 6 -65 0 -55 Z" fill="#FF9E00"/>
+      <circle cx="0" cy="-58" r="4" fill="#FFFF3F"/>
+
+      <path d="M 19 -45 C 13 -55 19 -60 19 -60 C 19 -60 25 -55 19 -45 Z" fill="#FF9E00"/>
+      <circle cx="19" cy="-48" r="3" fill="#FFFF3F"/>
+    </g>
+  </g>
+
+  <!-- Confetti scattered -->
+  <circle cx="90" cy="200" r="4" fill="#FF70A6"/>
+  <rect x="70" y="240" width="8" height="4" rx="2" fill="#48CAE4" transform="rotate(30, 74, 242)"/>
+  <rect x="420" y="210" width="8" height="4" rx="2" fill="#FFD166" transform="rotate(-40, 424, 212)"/>
+  <circle cx="380" cy="270" r="5" fill="#06D6A0"/>
+
+  <text x="250" y="470" font-family="'Caveat', cursive, sans-serif" font-size="28" fill="#6B4D44" text-anchor="middle" font-weight="bold">Best birthday celebrations 🎂🎉</text>
+</svg>

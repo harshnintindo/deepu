@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE5D9"/>
+      <stop offset="100%" stop-color="#FFCAD4"/>
+    </linearGradient>
+    <linearGradient id="cup1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F4ECE1"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#805b50" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bg1)"/>
+  
+  <!-- Table surface -->
+  <path d="M 0 340 Q 250 330 500 340 L 500 500 L 0 500 Z" fill="#F7D9C4" opacity="0.6"/>
+  <ellipse cx="250" cy="400" rx="200" ry="25" fill="#E8B49E" opacity="0.4"/>
+  
+  <!-- Left Coffee Cup -->
+  <g filter="url(#softShadow)">
+    <ellipse cx="190" cy="350" rx="60" ry="20" fill="#E8B49E" opacity="0.5"/>
+    <ellipse cx="190" cy="270" rx="55" ry="16" fill="#DDB892"/>
+    <ellipse cx="190" cy="270" rx="48" ry="12" fill="#7F5539"/>
+    <!-- Latte art heart -->
+    <path d="M 190 274 C 182 266 170 268 174 276 C 178 284 190 290 190 290 C 190 290 202 284 206 276 C 210 268 198 266 190 274 Z" fill="#F8EDEB" opacity="0.9"/>
+    <!-- Cup body -->
+    <path d="M 135 270 C 135 340 150 355 190 355 C 230 355 245 340 245 270 Z" fill="url(#cup1)"/>
+    <!-- Cup handle -->
+    <path d="M 135 285 C 105 285 105 330 138 335" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right Matcha / Tea Cup -->
+  <g filter="url(#softShadow)">
+    <ellipse cx="310" cy="365" rx="55" ry="18" fill="#E8B49E" opacity="0.5"/>
+    <ellipse cx="310" cy="295" rx="50" ry="14" fill="#B7B7A4"/>
+    <ellipse cx="310" cy="295" rx="44" ry="10" fill="#6B705C"/>
+    <!-- Cup body -->
+    <path d="M 260 295 C 260 360 275 370 310 370 C 345 370 360 360 360 295 Z" fill="#FFE5D9"/>
+    <path d="M 360 305 C 385 305 385 345 358 350" fill="none" stroke="#FFE5D9" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- Steam -->
+  <path d="M 180 240 Q 170 210 185 185 Q 195 160 180 135" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 200 245 Q 215 220 200 195 Q 190 170 205 145" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 310 270 Q 320 245 310 220 Q 300 195 315 170" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Decorative sparkles / sweet elements -->
+  <g fill="#FFAAA6" opacity="0.8">
+    <circle cx="90" cy="110" r="4"/>
+    <circle cx="410" cy="130" r="5"/>
+    <path d="M 390 90 Q 395 105 410 110 Q 395 115 390 130 Q 385 115 370 110 Q 385 105 390 90 Z" fill="#F4A261" opacity="0.7"/>
+    <path d="M 100 190 Q 105 200 115 205 Q 105 210 100 220 Q 95 210 85 205 Q 95 200 100 190 Z" fill="#F4A261" opacity="0.7"/>
+  </g>
+  <text x="250" y="465" font-family="'Caveat', cursive, sans-serif" font-size="28" fill="#6B4D44" text-anchor="middle" font-weight="bold">Catch-ups &amp; warm coffee ☕</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mem1Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1E6"/>
+      <stop offset="100%" stop-color="#FDE2E4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#mem1Bg)"/>
+
+  <!-- Vintage clock showing serendipity time -->
+  <g transform="translate(140, 180)">
+    <circle cx="0" cy="0" rx="60" ry="60" fill="#FFFFFF" stroke="#DDB892" stroke-width="6"/>
+    <circle cx="0" cy="0" r="4" fill="#7F5539"/>
+    <!-- Hour marks -->
+    <line x1="0" y1="-50" x2="0" y2="-42" stroke="#7F5539" stroke-width="3"/>
+    <line x1="0" y1="50" x2="0" y2="42" stroke="#7F5539" stroke-width="3"/>
+    <line x1="-50" y1="0" x2="-42" y2="0" stroke="#7F5539" stroke-width="3"/>
+    <line x1="50" y1="0" x2="42" y2="0" stroke="#7F5539" stroke-width="3"/>
+    <!-- Clock hands pointing to 2:15 -->
+    <line x1="0" y1="0" x2="25" y2="-12" stroke="#7F5539" stroke-width="4" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="10" y2="35" stroke="#E63946" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Two high-five hands or waving coffee cups -->
+  <g transform="translate(400, 180)">
+    <!-- Speech bubble -->
+    <path d="M -80 -80 C -80 -120 50 -120 50 -80 C 50 -40 -30 -40 -40 -20 L -50 -40 C -80 -40 -80 -80 -80 -80 Z" fill="#FFFFFF" stroke="#FFCAD4" stroke-width="3"/>
+    <text x="-15" y="-72" font-family="'Caveat', cursive, sans-serif" font-size="28" fill="#E07A5F" text-anchor="middle" font-weight="bold">"Hey! Sit here!" ✨</text>
+
+    <!-- Warm Coffee cup -->
+    <rect x="-60" y="0" width="50" height="60" rx="8" fill="#F4A261"/>
+    <path d="M -10 10 C 10 10 10 40 -10 40" fill="none" stroke="#F4A261" stroke-width="6"/>
+    <!-- Cute flower -->
+    <circle cx="40" cy="30" r="14" fill="#FFB703"/>
+    <circle cx="40" cy="30" r="7" fill="#FFF"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#E07A5F">
+    <path d="M 270 90 Q 275 105 290 110 Q 275 115 270 130 Q 265 115 250 110 Q 265 105 270 90 Z"/>
+    <circle cx="285" cy="240" r="5" fill="#FFCAD4"/>
+    <circle cx="490" cy="80" r="6" fill="#F7D9C4"/>
+  </g>
+
+  <!-- Bottom decorative note -->
+  <text x="300" y="345" font-family="'Caveat', cursive, sans-serif" font-size="26" fill="#7F5539" text-anchor="middle">"The beginning of our greatest adventure."</text>
+</svg>
